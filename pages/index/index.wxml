@@ -1,0 +1,16 @@
+<!--pages/list/list.wxml-->
+<view class='top'>
+	<view class='search-sh'>
+		<icon type='search' color='#666666'></icon>
+		<text>查询您想搜索的食物</text>
+	</view>
+</view>
+<view class='list'>
+	<block wx:for="{{list}}">
+		<view class='mli'>
+			<image class='mli-img' src='/img/{{item.icon}}'></image>
+			<view class='mli-txt'>{{item.name}}</view>
+		</view>
+	</block>
+</view>
+
