@@ -1,0 +1,16 @@
+<!--pages/list/list.wxml-->
+<view class='top'>
+	<view class='search-sh' bindtap='bindGotoSearch'>
+		<icon type='search' color='#666666' size='18'></icon>
+		<text>查询您想搜索的食物</text>
+	</view>
+</view>
+<view class='list'>
+	<block wx:for="{{list}}" wx:key="mli">
+		<view class='mli' data-id="{{item.id}}" bindtap='bindGotoNextLevel'>
+			<image class='mli-img' src='{{CDN_URL}}/img/{{item.icon}}'></image>
+			<view class='mli-txt'>{{item.name}}</view>
+		</view>
+	</block>
+</view>
+

@@ -1,0 +1,60 @@
+<image class="top" src="{{CDN_URL}}/img/ymbnc_top2.png"></image>
+<view class='m-wrap'>
+	<image class='m-img' src='{{CDN_URL}}/img/mimg.png'></image>
+	<view class='info'>
+		<view class='inf-l'>
+			<view class='inf-name'>菠萝</view>
+			<view class='inf-sname'>别名：凤梨</view>
+		</view>
+		<view class='inf-r'>
+			<view class='inf-fun' bindtap='bindTapPraise'>
+				<image class='inf-icon' src='{{CDN_URL}}/img/{{img_praise}}'></image>
+				<view class='inf-num'>{{num_praise}}</view>
+			</view>
+			<button class='inf-fun share' open-type='share'>
+				<image class='inf-icon' src='{{CDN_URL}}/img/share.png'></image>
+			</button>
+		</view>
+	</view>
+</view>
+
+<view class='mlist'>
+	<view class='mli'>
+		<view class='mli-icon tp1'>宜</view>
+		<view class='mli-name'>孕妇</view>
+	</view>
+	<view class='mli'>
+		<view class='mli-icon tp2'>禁</view>
+		<view class='mli-name'>哺乳</view>
+	</view>
+	<view class='mli'>
+		<view class='mli-icon tp3'>慎</view>
+		<view class='mli-name'>坐月子</view>
+	</view>
+	<view class='mli'>
+		<view class='mli-icon tp1'>宜</view>
+		<view class='mli-name'>婴儿</view>
+	</view>
+</view>
+
+<view class='mtli'>
+	<view class='mt-tit tp1'>孕妇适宜食用</view>
+	<view class='mt-con'>菠萝是热带和亚热带地区的著名水果。菠萝外形美观，汁多味甜，含有有机酸和B族维生素、维生素C等营养成分，具有清热解暑，生津止渴，开胃消食，利大小便的作用，是非常合适妈妈的热带水果。如果孕妇本身菠萝过敏，建议您不要再食用菠萝。</view>
+</view>
+
+<view class='mtli'>
+	<view class='mt-tit tp2'>坐月子谨慎食用</view>
+	<view class='mt-con'>专家指出，作为产妇的新妈妈最好少吃菠萝，主要考虑的是容易过敏的问题。如果产妇对菠萝没有过敏的情况的话，还是可以吃的。但建议产妇少吃为妙，因为菠萝含湿毒，可影响产妇的身体健康，同事也可以通过乳汁作用于宝宝，导致宝宝上火，湿疹等疾病。特别是初次食用的产妇，尤其要当心过敏的发生。</view>
+</view>
+
+<view class='mtli'>
+	<view class='mt-tit tp3'>哺乳期禁止食用</view>
+	<view class='mt-con'>专家指出：菠萝中含有生物酐和菠萝蛋白酶会引起人体过敏，但由于个体差异也并不是每个人都不宜食用，因而哺乳期最好不要过多摄入，以免引起小儿过敏。</view>
+</view>
+
+<view class='mtli'>
+	<view class='mt-tit tp2'>婴儿谨慎食用</view>
+	<view class='mt-con'>宝宝6个月之后，就可以稍微吃一点稀粥和水果来换口味了，这样对刺激宝宝的味觉神经很有帮助。菠萝里有三种成分，可能会引起宝宝过敏，因此最好等到2岁之后再给宝宝喂食。对于菠萝这里易过敏的水果，不妨煮熟了再给宝宝吃。</view>
+</view>
+
+<image class='bottom' src='{{CDN_URL}}/img/ymbnc_bottom.png'></image>

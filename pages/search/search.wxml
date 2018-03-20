@@ -1,0 +1,40 @@
+<view class='top'>
+	<view class='search-sh'>
+		<icon type='search' color='#999999' size='18'></icon>
+		<input class='{{inputFocusClass}}' type='text' placeholder='查询您想搜索的食物' maxlength='32' focus='true' confirm-type='search' value='{{inputKeywords}}' bindconfirm='startSearch' bindinput="bindInputChange"></input>
+	</view>
+</view>
+
+<view class='swrap' hidden='{{hideHotSearch}}'>
+	<view class='sw-tit'>
+		<view class='sw-cir sw-cir-g'></view>
+		<view class='sw-txt'>妈妈们都在搜</view>
+	</view>
+	<view class='sw-ul'>
+		<block wx:for="{{hotWords1}}" wx:key="words1">
+			<view class='sw-li' bindtap='bindWordsSearch' data-id='{{item.id}}' data-words="{{item.name}}">{{item.name}}</view>
+		</block>
+	</view>
+</view>
+
+<view class='swrap' hidden='{{hideHotSearch}}'>
+	<view class='sw-tit'>
+		<view class='sw-cir sw-cir-r'></view>
+		<view class='sw-txt'>禁忌食品热搜</view>
+	</view>
+	<view class='sw-ul'>
+		<block wx:for="{{hotWords2}}" wx:key="words2">
+			<view class='sw-li' bindtap='bindWordsSearch' data-id='{{item.id}}' data-words="{{item.name}}">{{item.name}}</view>
+		</block>
+	</view>
+</view>
+
+<view class='lr-ul' hidden='{{!hideHotSearch}}'>
+	<view class='lrli'>
+		<image class='lrli-l' src='{{CDN_URL}}/img/a_apple.png' mode='aspectFill'></image>
+		<view class='lrli-r'>
+			<view class='lrli-tit'>鸭梨</view>
+			<view class='lrli-stit'>别称：水梨</view>
+		</view>
+	</view>
+</view>

@@ -1,16 +1,8 @@
-<!--pages/list/list.wxml-->
-<view class='top'>
-	<view class='search-sh'>
-		<icon type='search' color='#666666'></icon>
-		<text>查询您想搜索的食物</text>
-	</view>
-</view>
-<view class='list'>
-	<block wx:for="{{list}}">
-		<view class='mli'>
-			<image class='mli-img' src='/img/{{item.icon}}'></image>
-			<view class='mli-txt'>{{item.name}}</view>
-		</view>
-	</block>
+
+<view class='wrap'>
+	<image class='logo' src='{{CDN_URL}}/img/ymbnc_logo.png'></image>
 </view>
 
+<view class='index-tit'>孕妈不能吃</view>
+
+<view class='index-txt'><view class='text'>华大母婴</view><view class='index-d'>/</view><view class='text'>见证宝宝健康</view></view>

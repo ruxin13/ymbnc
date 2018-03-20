@@ -1,2 +1,24 @@
-<!--pages/list/list.wxml-->
-<text>pages/list/list.wxml</text>
+<view class='top'>
+	<view class='search-sh' bindtap='bindGotoSearch'>
+		<icon type='search' color='#666666' size='18'></icon>
+		<text>查询您想搜索的食物</text>
+	</view>
+</view>
+<view class='aul'>
+	<block wx:for="{{list}}" wx:key="ali">
+		<view class='ali' data-id="{{item.id}}" bindtap='bindGotoDetail'>
+			<image class='ali-img' src='{{CDN_URL}}/img/{{item.icon}}'></image>
+			<view class='ali-txt'>
+				<view class='ali-name'>{{item.name}}</view>
+				<view class='ali-sli'>
+					<image class='ali-icon' src='{{CDN_URL}}/img/good.png'></image>
+					<text>{{item.praise}}</text>
+				</view>
+				<view class='ali-sli'>
+					<image class='ali-icon' src='{{CDN_URL}}/img/eye.png'></image>
+					<text>{{item.view}}</text>
+				</view>
+			</view>
+		</view>
+	</block>	
+</view>

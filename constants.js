@@ -1,5 +1,5 @@
 
-const util = require("./utils/util.js");
+
 
 // 请求的基础数据
 let commonData = {
@@ -23,7 +23,7 @@ let constants = {
 	},
 
 	// 资源cdn地址
-	CDN_URL: ENV === "prod" ? "https://p.ihuada.com/mp/prod" : "https://p.ihuada.com/mp/dev",
+	CDN_URL: ENV === "dev" ? "https://p.ihuada.com/mc/dev" : "https://p.ihuada.com/mc/prod",
 
 	// 服务器地址配置
 	SERVER_URL: "https://x.ihuada.com",

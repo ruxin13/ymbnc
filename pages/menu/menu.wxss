@@ -23,43 +23,33 @@
 	font-size: 32rpx;
 	color: #666666;
 }
-.aul{
+.list{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding: 40rpx;
+	padding: 40rpx 60rpx 0;
 }
-.ali{
-	box-shadow: 0 0 8rpx 0 rgba(134, 143, 173, .15);
-	border-radius: 4rpx;
-	margin-bottom: 20rpx;
-}
-.ali-img{
-	width: 324rpx;
-	height: 260rpx;
-}
-.ali-txt{
+.mli{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	height: 80rpx;
-	line-height: 80rpx;
-	padding: 0 20rpx;
+	justify-content: center;
+	flex-direction: column;
+	padding: 12rpx 0;
 }
-.ali-name{
-	flex: 1;
-	font-size: 28rpx;
-	color: #333333;
+.mli:nth-child(3n-1){
+	margin: 0 88rpx;
 }
-.ali-icon{
-	width: 44rpx;
+.mli-img{
+	width: 150rpx;
+	height: 150rpx;
+	display: block;
+	margin-bottom: 4rpx;
+}
+.mli-txt{
+	font-size: 32rpx;
+	color: #666666;
+	text-align: center;
+	line-height: 44rpx;
 	height: 44rpx;
-}
-.ali-sli{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	font-size: 24rpx;
-	color: #757575;
 }

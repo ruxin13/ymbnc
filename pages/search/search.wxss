@@ -1,0 +1,102 @@
+.top{
+	background: url("http://p.ihuada.com/mc/dev/img/ymbnc.png") no-repeat center top;
+	background-size: 100%;
+	height: 194rpx;
+	box-sizing: border-box;
+	padding-top: 20rpx;
+	margin-bottom: 40rpx;
+}
+.search-sh{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: #fff;
+	width: 630rpx;
+	height: 85rpx;
+	border-radius: 20rpx;
+	margin: 0 auto;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+}
+.search-sh icon{
+	display: block;
+	margin-right: 14rpx;
+}
+.search-sh input{
+	font-size: 32rpx;
+	color: #666666;
+	width: 10em;
+}
+.search-sh input.focus{
+	flex: 1;
+}
+.sw-tit{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0 40rpx;
+}
+.sw-cir{
+	width: 16rpx;
+	height: 16rpx;
+	border-radius: 8rpx;
+	margin-right: 20rpx;
+}
+.sw-cir-g{
+	background-color: #44D9A2;
+}
+.sw-cir-r{
+	background-color: #FF7985;
+}
+.sw-txt{
+	font-size: 28rpx;
+	color: #666666;
+}
+.sw-ul{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	padding: 14rpx 70rpx 44rpx;
+}
+.sw-li{
+	background-color: #ccc;
+	color: #fff;
+	padding: 12rpx 24rpx;
+	border-radius: 20rpx;
+	margin: 14rpx 6rpx;
+	font-size: 28rpx;
+}
+
+.lrli{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 640rpx;
+	height: 200rpx;
+	background-color: #fff;
+	margin: 0 auto 20rpx;
+	box-sizing: border-box;
+	padding: 30rpx;
+	box-shadow: 0 0 40rpx 0 rgba(134, 143, 173 ,.1);
+	border-radius: 4rpx;
+}
+.lrli-l{
+	width: 140rpx;
+	height: 140rpx;
+	display: block;
+	margin-right: 40rpx;
+	border-radius: 70rpx;
+}
+.lrli-r{
+	flex: 1;
+}
+.lrli-tit{
+	font-size: 40rpx;
+	color: #333333;
+	margin-bottom: 12rpx;
+}
+.lrli-stit{
+	font-size: 28rpx;
+	color: #666666;
+}
